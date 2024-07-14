@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kajal product</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- AOS (Animate On Scroll) Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .product-img {
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-lg font-bold">SUGAR PLAY</div>
+            <div class="space-x-4">
+                <a href="#" class="text-gray-600">Lips</a>
+                <a href="#" class="text-gray-600">Eyes</a>
+                <a href="#" class="text-gray-600">Face</a>
+                <a href="#" class="text-gray-600">Nails</a>
+                <a href="#" class="text-gray-600">Skincare</a>
+                <a href="#" class="text-gray-600">Accessories</a>
+                <a href="#" class="text-gray-600">Gifting</a>
+                <a href="#" class="text-gray-600">Bestsellers</a>
+                <a href="#" class="text-gray-600">New Launches</a>
+                <a href="#" class="text-gray-600">Offers</a>
+                <a href="#" class="text-gray-600">Blog</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Breadcrumb -->
+    <div class="container mx-auto p-4">
+        <nav class="text-gray-600 text-sm">
+            <a href="#" class="hover:underline">Home</a> > 
+            <a href="#" class="hover:underline">Kohl Of Honour Intense Kajal</a>
+        </nav>
+    </div>
+    <!-- Product Section -->
+    <div class="container mx-auto p-4 bg-white shadow-md rounded-lg" data-aos="fade-up">
+        <div class="flex flex-col md:flex-row">
+            <div class="flex-shrink-0">
+                <img src="./img1.png" alt="Kajal" class="product-img">
+            </div>
+            <div class="mt-4 md:mt-0 md:ml-6">
+                <h2 class="text-xl font-semibold">Kohl Of Honour Intense Kajal - 01 Black Out (Black)</h2>
+                <p class="text-gray-600 mt-2">₹249.00</p>
+                <div class="flex items-center mt-4">
+                    <div class="text-yellow-400 mr-2">★★★★☆</div>
+                    <span class="text-gray-600">(628)</span>
+                </div>
+                <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Add to Bag</button>
+            </div>
+        </div>
+    </div>
+    <!-- Product Listings -->
+    <div class="container mx-auto p-4 grid grid-cols-1 md:grid-cols-4 gap-4 mt-6">
+        <div class="p-4 bg-white shadow-md rounded-lg" data-aos="fade-up" data-aos-delay="100">
+            <img src="./img2.png" alt="Product" class="w-full h-auto object-cover">
+            <h2 class="text-xl font-semibold mt-2">Smudge Me Not Mini Liquid Lipstick Set of 4</h2>
+            <p class="text-gray-700">₹799.00</p>
+            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Choose Items</button>
+        </div>
+        <div class="p-4 bg-white shadow-md rounded-lg" data-aos="fade-up" data-aos-delay="200">
+            <img src="./img3.png" alt="Product" class="w-full h-auto object-cover">
+            <h2 class="text-xl font-semibold mt-2">Matte Attack Transferproof Lipstick</h2>
+            <p class="text-gray-700">₹749.00</p>
+            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Select Shade</button>
+        </div>
+        <div class="p-4 bg-white shadow-md rounded-lg" data-aos="fade-up" data-aos-delay="300">
+            <img src="./img4.png" alt="Product" class="w-full h-auto object-cover">
+            <h2 class="text-xl font-semibold mt-2">Ace Of Face Foundation Stick</h2>
+            <p class="text-gray-700">₹1149.00</p>
+            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Select Shade</button>
+        </div>
+        <div class="p-4 bg-white shadow-md rounded-lg" data-aos="fade-up" data-aos-delay="400">
+            <img src="./img5.png" alt="Product" class="w-full h-auto object-cover">
+            <h2 class="text-xl font-semibold mt-2">Matte As Hell Crayon Lipstick Minis Set of 3</h2>
+            <p class="text-gray-700">₹999.00</p>
+            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Choose Items</button>
+        </div>
+    </div>
+    <!-- AOS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
